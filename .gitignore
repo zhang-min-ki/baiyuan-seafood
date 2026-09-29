@@ -1,0 +1,12 @@
+# ---- 只在本地使用、不发布到 GitHub 的文件 ----
+佰源水产官网-单文件版.html
+佰源水产官网-完整站.zip
+部署包/
+上线/
+部署指南.md
+
+# 系统 / 编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
