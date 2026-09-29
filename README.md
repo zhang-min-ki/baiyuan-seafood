@@ -1,7 +1,20 @@
 # 威海佰源水产有限公司 · 企业官网
 
+**线上地址：<https://zhang-min-ki.github.io/baiyuan-seafood/>**（GitHub Pages，已发布）
+代码仓库：<https://github.com/zhang-min-ki/baiyuan-seafood>
+
 由 PPT《威海佰源水产有限公司简介》整理而成的单页企业官网（深色深海金调）。
 纯静态站点：无框架、无构建步骤，双击 `index.html` 即可在浏览器中打开。
+
+## 更新线上内容
+
+改完 `index.html` 或替换 `assets/` 里的图片后，在项目根目录执行：
+
+```bash
+GITHUB_TOKEN=你的令牌 bash "上线/github-pages发布.sh"
+```
+
+脚本会自动提交、推送、并轮询线上地址直到生效（本机 github.com 的 DNS 被污染，脚本用固定 IP 直连绕过，无需改 hosts）。
 
 ## 目录结构
 
